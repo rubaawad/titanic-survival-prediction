@@ -1,5 +1,5 @@
 ## End to End Machine Learning Ptorject
-## Predictions models for Titanic dataset
+## Prediction model for Titanic dataset
 Getting Started
 Installation
 To run this project locally, follow these steps:

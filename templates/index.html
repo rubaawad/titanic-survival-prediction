@@ -1,0 +1,27 @@
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Titanic Survival Prediction</title>
+   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+   <h1>Titanic Survival Prediction</h1>
+   <form action="/predict" method="post">
+     <label for="age">Age:</label>
+     <input type="text" id="age" name="Age"><br><br>
+     <label for="sex">Sex:</label>
+     <input type="text" id="sex" name="Sex"><br><br>
+     <label for="class">Class:</label>
+     <input type="text" id="class" name="Pclass"><br><br>
+     <label for="embarked">Embarked:</label>
+     <input type="text" id="embarked" name="Embarked"><br><br>
+     <label for="SibSp">SibSp:</label>
+     <input type="text" id="SibSp" name="SibSp"><br><br>
+     <label for="Parch">Parch:</label>
+     <input type="text" id="Parch" name="Parch"><br><br>
+     <label for="Fare">Fare:</label>
+     <input type="text" id="Fare" name="Fare"><br><br>
+     <input type="submit" value="Predict">
+   </form>
+ </body>
+</html>
